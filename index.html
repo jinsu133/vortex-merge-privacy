@@ -14,7 +14,7 @@
       color: #e8ecf8;
     }
     main {
-      max-width: 880px;
+      max-width: 920px;
       margin: 0 auto;
       padding: 40px 20px 72px;
     }
@@ -32,6 +32,7 @@
     }
     .muted { color: #aeb8d3; }
     .lang { font-size: 0.95rem; color: #aeb8d3; }
+    strong { color: #fff; }
   </style>
 </head>
 <body>
@@ -41,35 +42,56 @@
   <p class="muted">시행일: 2026년 5월 29일</p>
 
   <div class="card">
-    <p><strong>요약:</strong> Vortex Merge는 현재 버전에서 회원가입, 로그인, 광고, 분석 SDK, 서버 연동을 사용하지 않는 모바일 게임입니다. 앱은 이름, 이메일, 위치, 연락처, 사진, 결제 정보 등 개인을 식별할 수 있는 정보를 수집하거나 공유하지 않습니다.</p>
+    <p><strong>요약:</strong> Vortex Merge는 모바일 게임입니다. 앱은 게임 플레이를 위해 기기 내 저장 데이터를 사용할 수 있으며, 광고 제공을 위해 Google AdMob을 사용할 수 있습니다. 또한 광고 영구 제거 등 디지털 상품 판매를 위해 Google Play 결제를 사용할 수 있습니다. 개발자는 사용자의 결제 카드 번호를 직접 수집하거나 보관하지 않습니다.</p>
   </div>
 
-  <h2>1. 수집하는 개인정보</h2>
-  <p>Vortex Merge는 현재 버전에서 사용자의 개인정보를 직접 수집하지 않습니다. 앱은 계정 생성, 로그인, 서버 저장, 채팅, 사용자 생성 콘텐츠 기능을 제공하지 않습니다.</p>
+  <h2>1. 수집하거나 처리될 수 있는 정보</h2>
+  <p>Vortex Merge는 현재 계정 생성, 자체 회원가입, 채팅, 사용자 생성 콘텐츠 기능을 제공하지 않습니다. 다만 앱 기능 및 수익화 기능에 따라 다음 정보가 처리될 수 있습니다.</p>
+  <ul>
+    <li><strong>기기 내 게임 데이터:</strong> 진행 상황, 설정, 언어 설정, 사운드 설정, 광고 제거 보유 여부 등은 앱 기능 제공을 위해 기기 내에 저장될 수 있습니다.</li>
+    <li><strong>광고 관련 정보:</strong> Google Mobile Ads SDK 또는 관련 Google 서비스는 광고 제공, 광고 성과 측정, 부정행위 방지, 앱 안정성 개선을 위해 IP 주소, 광고 ID 등 기기 또는 계정 식별자, 앱/광고 상호작용, 진단 정보, 기기 및 앱 정보를 처리할 수 있습니다.</li>
+    <li><strong>구매 관련 정보:</strong> Google Play 결제를 통해 광고 영구 제거 등 인앱 상품을 구매하는 경우, 상품 ID, 구매 상태, 구매 토큰 또는 영수증 관련 식별자, 구매 복원에 필요한 권한 정보가 처리될 수 있습니다. 결제 수단 정보는 Google Play에서 처리하며 개발자는 카드 번호 등 결제 수단 세부 정보를 직접 수집하지 않습니다.</li>
+  </ul>
 
-  <h2>2. 자동으로 수집되는 정보</h2>
-  <p>현재 버전에는 광고 SDK, 분석 SDK, 소셜 로그인 SDK, 위치 기반 기능이 포함되어 있지 않습니다. 따라서 앱 운영자가 광고 식별자, 기기 식별자, 위치 정보, 사용 기록을 별도로 수집하지 않습니다.</p>
-  <p>다만 앱이 Google Play를 통해 배포되는 경우, Google Play 또는 기기 운영체제는 설치, 업데이트, 비정상 종료, 보안 관련 정보를 자체 정책에 따라 처리할 수 있습니다. 이는 앱 개발자가 직접 수집하는 정보가 아닙니다.</p>
+  <h2>2. 정보 이용 목적</h2>
+  <ul>
+    <li>게임 진행, 설정 저장, 구매한 광고 제거 권한 적용 등 앱 기능 제공</li>
+    <li>광고 표시, 광고 성과 측정, 광고 빈도 관리, 맞춤형 또는 비맞춤형 광고 제공</li>
+    <li>구매 처리, 구매 복원, 환불 또는 결제 오류 대응</li>
+    <li>오류 진단, 앱 안정성 개선, 부정행위 및 악용 방지</li>
+  </ul>
 
-  <h2>3. 개인정보의 이용 목적</h2>
-  <p>현재 수집하는 개인정보가 없으므로, 개인정보를 이용한 맞춤형 광고, 프로파일링, 마케팅, 제3자 제공을 하지 않습니다.</p>
+  <h2>3. 광고 및 동의</h2>
+  <p>Vortex Merge에는 광고가 포함될 수 있습니다. 관련 법령이나 플랫폼 정책상 필요한 지역에서는 맞춤형 광고 제공 전에 동의 화면이 표시될 수 있습니다. 사용자는 기기 설정 또는 Google 설정을 통해 광고 개인 최적화와 광고 ID 관련 선택을 변경할 수 있습니다.</p>
 
-  <h2>4. 개인정보의 공유</h2>
-  <p>Vortex Merge는 사용자의 개인정보를 제3자에게 판매, 임대, 공유하지 않습니다.</p>
+  <h2>4. 인앱 구매 및 광고 영구 제거</h2>
+  <p>Vortex Merge는 Google Play 결제를 통해 광고 영구 제거와 같은 비소모성 인앱 상품을 제공할 수 있습니다. 구매가 정상 처리되면 앱은 해당 권한을 적용하고, 필요 시 Google Play의 구매 복원 기능을 통해 같은 Google Play 계정에서 구매 상태를 확인할 수 있습니다.</p>
 
-  <h2>5. 아동의 개인정보</h2>
-  <p>Vortex Merge는 만 13세 미만 아동을 대상으로 개인정보를 수집하지 않습니다. 보호자가 아동의 개인정보 제공이 있었다고 판단하는 경우 아래 연락처로 문의해 주세요.</p>
+  <h2>5. 제3자 서비스</h2>
+  <p>앱은 다음 제3자 서비스를 사용할 수 있으며, 각 서비스는 자체 개인정보처리방침 및 약관에 따라 데이터를 처리합니다.</p>
+  <ul>
+    <li>Google AdMob / Google Mobile Ads SDK: 광고 제공 및 측정</li>
+    <li>Google Play 결제 / Google Play services: 인앱 구매 처리 및 구매 복원</li>
+    <li>Google Play Console 및 Android 시스템: 앱 설치, 업데이트, 오류, 보안, 진단 정보 처리</li>
+  </ul>
+  <p>Google의 개인정보 처리 방식은 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>에서 확인할 수 있습니다.</p>
 
-  <h2>6. 데이터 보관 및 삭제</h2>
-  <p>앱이 직접 수집·저장하는 개인정보가 없으므로 별도의 개인정보 보관 기간이 없습니다. 기기 내 게임 진행 정보나 설정이 저장되는 경우 사용자가 앱 데이터 삭제 또는 앱 삭제를 통해 제거할 수 있습니다.</p>
+  <h2>6. 개인정보의 공유</h2>
+  <p>개발자는 사용자의 개인정보를 판매하지 않습니다. 다만 광고 제공, 결제 처리, 앱 배포, 오류 분석 등 앱 운영에 필요한 범위에서 Google 등 제3자 서비스 제공자가 데이터를 처리할 수 있습니다.</p>
 
-  <h2>7. 보안</h2>
-  <p>앱은 개인정보를 직접 수집하지 않지만, 향후 기능 추가 시 필요한 경우 합리적인 보안 조치를 적용하고 본 개인정보처리방침을 업데이트하겠습니다.</p>
+  <h2>7. 데이터 보관 및 삭제</h2>
+  <p>기기 내 저장 데이터는 사용자가 앱 데이터 삭제 또는 앱 삭제를 통해 제거할 수 있습니다. Google Play 구매 기록과 결제 관련 기록은 Google 및 관련 법령·정책에 따라 보관될 수 있습니다. 구매 취소, 환불, 구매 복원은 Google Play 정책과 절차를 따릅니다.</p>
 
-  <h2>8. 방침 변경</h2>
-  <p>광고, 분석, 온라인 기능, 계정 기능 등 개인정보 처리에 영향을 주는 기능이 추가되면 본 방침을 업데이트하고, 필요한 경우 Google Play Console의 데이터 보안 정보도 함께 수정하겠습니다.</p>
+  <h2>8. 아동의 개인정보</h2>
+  <p>Vortex Merge는 만 13세 미만 아동을 대상으로 개인정보를 고의로 수집하지 않습니다. 보호자가 아동의 개인정보 제공이 있었다고 판단하는 경우 아래 연락처로 문의해 주세요. 아동 대상 앱 또는 가족 정책 대상 앱으로 운영하는 경우 Google Play 가족 정책과 광고 제한 설정을 준수하겠습니다.</p>
 
-  <h2>9. 문의</h2>
+  <h2>9. 보안</h2>
+  <p>개발자는 앱 기능 제공에 필요한 범위에서 합리적인 보안 조치를 적용하기 위해 노력합니다. 단, 인터넷 또는 기기 환경에서의 데이터 처리에는 완전한 보안을 보장할 수 없습니다.</p>
+
+  <h2>10. 방침 변경</h2>
+  <p>로그인, 클라우드 저장, 랭킹, 분석, 푸시 알림, 서버 기능 등 개인정보 처리에 영향을 주는 기능이 추가되면 본 방침을 업데이트하고, 필요한 경우 Google Play Console의 데이터 보안 정보도 함께 수정하겠습니다.</p>
+
+  <h2>11. 문의</h2>
   <p>개인정보처리방침에 관한 문의는 아래 이메일로 연락해 주세요.</p>
   <p><a href="mailto:jinsu133@gmail.com">jinsu133@gmail.com</a></p>
 
@@ -77,35 +99,56 @@
   <p class="muted">Effective date: May 29, 2026</p>
 
   <div class="card">
-    <p><strong>Summary:</strong> In the current version, Vortex Merge is a mobile game without account registration, login, advertising, analytics SDKs, or server-side account features. The app does not collect or share personally identifiable information such as name, email address, location, contacts, photos, or payment information.</p>
+    <p><strong>Summary:</strong> Vortex Merge is a mobile game. The app may use local game data for gameplay, Google AdMob to display ads, and Google Play Billing to sell digital products such as permanent ad removal. The developer does not directly collect or store users' payment card numbers.</p>
   </div>
 
-  <h2>1. Information We Collect</h2>
-  <p>Vortex Merge does not directly collect personal information in the current version. The app does not provide account registration, login, server-side storage, chat, or user-generated content features.</p>
+  <h2>1. Information That May Be Collected or Processed</h2>
+  <p>Vortex Merge currently does not provide developer-operated account registration, chat, or user-generated content features. Depending on app features and monetization, the following information may be processed:</p>
+  <ul>
+    <li><strong>Local game data:</strong> Progress, settings, language settings, sound settings, and ad-removal entitlement status may be stored on the device to provide app functionality.</li>
+    <li><strong>Advertising-related information:</strong> The Google Mobile Ads SDK or related Google services may process IP address, advertising ID or other device/account identifiers, app or ad interactions, diagnostic information, and device/app information for advertising, measurement, fraud prevention, and app stability.</li>
+    <li><strong>Purchase-related information:</strong> If a user purchases an in-app product such as permanent ad removal through Google Play Billing, product ID, purchase status, purchase token or receipt-related identifiers, and entitlement information needed for purchase restore may be processed. Payment method details are handled by Google Play; the developer does not directly collect payment card details.</li>
+  </ul>
 
-  <h2>2. Automatically Collected Information</h2>
-  <p>The current version does not include advertising SDKs, analytics SDKs, social login SDKs, or location-based features. Therefore, the app operator does not separately collect advertising identifiers, device identifiers, location data, or usage records.</p>
-  <p>When the app is distributed through Google Play, Google Play or the device operating system may process installation, update, crash, security, or diagnostic information according to their own policies. This information is not directly collected by the app developer through the app.</p>
+  <h2>2. How Information Is Used</h2>
+  <ul>
+    <li>To provide app functionality, including game progress, settings, and purchased ad-removal entitlement</li>
+    <li>To display ads, measure ad performance, manage ad frequency, and provide personalized or non-personalized ads</li>
+    <li>To process purchases, restore purchases, and handle refunds or billing issues</li>
+    <li>To diagnose errors, improve app stability, and prevent fraud or abuse</li>
+  </ul>
 
-  <h2>3. How We Use Information</h2>
-  <p>Because the app does not collect personal information, it does not use personal information for personalized advertising, profiling, marketing, or third-party sharing.</p>
+  <h2>3. Advertising and Consent</h2>
+  <p>Vortex Merge may contain ads. Where required by applicable law or platform policy, a consent screen may be shown before personalized ads are served. Users can change ad personalization and advertising ID choices through device settings or Google settings.</p>
 
-  <h2>4. Sharing of Information</h2>
-  <p>Vortex Merge does not sell, rent, or share users' personal information with third parties.</p>
+  <h2>4. In-App Purchases and Permanent Ad Removal</h2>
+  <p>Vortex Merge may offer non-consumable in-app products such as permanent ad removal through Google Play Billing. After a successful purchase, the app applies the entitlement and may use Google Play purchase restore functionality to verify purchase status for the same Google Play account.</p>
 
-  <h2>5. Children's Privacy</h2>
-  <p>Vortex Merge does not knowingly collect personal information from children under 13. If you believe that a child has provided personal information, please contact us using the email address below.</p>
+  <h2>5. Third-Party Services</h2>
+  <p>The app may use the following third-party services, which process data according to their own privacy policies and terms:</p>
+  <ul>
+    <li>Google AdMob / Google Mobile Ads SDK: ad serving and measurement</li>
+    <li>Google Play Billing / Google Play services: in-app purchase processing and purchase restore</li>
+    <li>Google Play Console and the Android system: app installation, updates, crashes, security, and diagnostics</li>
+  </ul>
+  <p>For more information about Google's data practices, please see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-  <h2>6. Data Retention and Deletion</h2>
-  <p>Because the app does not directly collect or store personal information, there is no separate personal data retention period. If game progress or settings are stored locally on the device, users can remove them by clearing app data or uninstalling the app.</p>
+  <h2>6. Sharing of Information</h2>
+  <p>The developer does not sell users' personal information. However, third-party service providers such as Google may process data as necessary for advertising, billing, app distribution, diagnostics, and fraud prevention.</p>
 
-  <h2>7. Security</h2>
-  <p>Although the app does not directly collect personal information, if future features require data processing, we will apply reasonable security measures and update this Privacy Policy accordingly.</p>
+  <h2>7. Data Retention and Deletion</h2>
+  <p>Local app data can be removed by clearing app data or uninstalling the app. Google Play purchase records and billing-related records may be retained by Google and according to applicable laws and policies. Purchase cancellation, refunds, and purchase restoration are handled under Google Play policies and procedures.</p>
 
-  <h2>8. Changes to This Policy</h2>
-  <p>If features such as advertising, analytics, online functionality, or account features are added, this policy will be updated and the Google Play Console Data safety information will be revised as needed.</p>
+  <h2>8. Children's Privacy</h2>
+  <p>Vortex Merge does not knowingly collect personal information from children under 13. If you believe that a child has provided personal information, please contact us using the email address below. If the app is operated as a child-directed or Families Policy app, we will comply with Google Play Families Policy and ad restriction requirements.</p>
 
-  <h2>9. Contact</h2>
+  <h2>9. Security</h2>
+  <p>The developer works to apply reasonable security measures for data processing necessary to provide the app. However, no internet or device environment can be guaranteed to be completely secure.</p>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>If features such as login, cloud save, leaderboard, analytics, push notifications, or server functionality are added, this policy will be updated and Google Play Console Data safety information will be revised as needed.</p>
+
+  <h2>11. Contact</h2>
   <p>If you have questions about this Privacy Policy, please contact:</p>
   <p><a href="mailto:jinsu133@gmail.com">jinsu133@gmail.com</a></p>
 </main>
